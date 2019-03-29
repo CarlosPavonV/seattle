@@ -18,12 +18,15 @@ bash SeATTLE.sh <input_sequences_file> part.txt
 Progress will be printed to screen. The file "output.phy" is the final table with loci separated by tabs. This file can be read into R as follows:
 
 table <- read.table("output.phy", header = FALSE)
+
 row.names(table) <- table[,1]
+
 table[,1] <- NULL
 
 And then read into phrynomics as follows:
 
 library(phrynomics)
+
 datos <- ReadSNP(table)
 
 If you use SeATTLE please cite it as follows:
