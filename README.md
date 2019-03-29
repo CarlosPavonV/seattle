@@ -1,6 +1,8 @@
 # seattle
 SeATTLE (Sequence Alignment Transformation into a Table for Later Edition)
 
+Authors: Emmanuel A. Pavón-Vázquez, Carlos J. Pavón-Vázquez
+
 With genomic datasets becoming more common it's increasingly important to have tools that make formatting easy.
 
 Data complexity reduction is often necessary for computational or analytical reasons, and the extraction of single nucleotide polymorphisms (SNPs) is one of the most widespread ways to accomplish so. A particularly useful tool serving this purpose is the R package Phrynomics (Leaché et al. 2015: https://doi.org/10.1093/sysbio/syv053; https://github.com/bbanbury/phrynomics). Most of the data uploaded by authors to online repositories consist of a concatenated matrix (including invariant sites) and a partition file specifying the location of each locus in the matrix. However, in order for Phrynomics to identify parts of the alignment as different loci, separators need to be added between the sequences of each locus.
