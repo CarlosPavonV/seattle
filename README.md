@@ -10,4 +10,4 @@ This table can be read into R and easily processed with Phrynomics. Additionally
 
 If you use SeATTLE please cite it as follows:
 
-Pavón-Vázquez, E.A., & C.J. Pavón-Vázquez. 2019. SeATTLE: Sequence Alignment Transformation into a Table for Later Edition. Available at: https://github.com/CarlosPavonV/seattle/
+Pavón-Vázquez, E.A., & C.J. Pavón-Vázquez. 2019. SeATTLE: Sequence Alignment Transformation into a Table for Later Edition. Available at: https://github.com/CarlosPavonV/seattle
