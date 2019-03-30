@@ -29,7 +29,7 @@ And then read into phrynomics as follows:
 
 library(phrynomics)
 
-datos <- ReadSNP(table)
+data <- ReadSNP(table)
 
 If you use SeATTLE please cite it as follows:
 
