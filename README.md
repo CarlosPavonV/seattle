@@ -17,7 +17,7 @@ If that didn't work, try:
 
 bash SeATTLE.sh <input_sequences_file> part.txt
 
-Progress will be printed to screen. The file "output.phy" is the final table with loci separated by tabs. This file can be read into R as follows:
+Progress will be printed to screen. The file "output.phy" is the final table with loci separated by tabs. This file can be read into R as follows (*NOTE: In order for Phrynomics to work properly, all bases need to be uppercase):
 
 table <- read.table("output.phy", header = FALSE)
 
